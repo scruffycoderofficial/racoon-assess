@@ -1,0 +1,49 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+.env
+/.idea/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+public/build/
+###< symfony/webpack-encore-bundle ###
+
+###> lexik/jwt-authentication-bundle ###
+src/Core/Platform/Resources/jwt/private.pem
+src/Core/Platform/Resources/jwt/public.pem
+###< lexik/jwt-authentication-bundle ###
+
+###> miscelleneous ###
+.php-cs-fixer.cache
+tools
+public/docs/
+###< miscelleneous ###
+
+###> docker ###
+/data
+###> docker ###
+
+###> friends-of-behat/symfony-extension ###
+/behat.yml
+###< friends-of-behat/symfony-extension ###

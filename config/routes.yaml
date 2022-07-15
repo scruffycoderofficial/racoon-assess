@@ -1,0 +1,26 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+list_item:
+  path: /api/item/list
+  defaults:
+    _controller: racoon_assess.controller.items:index
+  methods: [ GET ]
+
+list_item_add:
+  path: /api/item/add
+  defaults:
+    _controller: racoon_assess.controller.items:index
+  methods: [ POST ]
+
+list_item_mark_complete:
+  path: /api/item/{name}/mark-complete
+  defaults:
+    _controller: racoon_assess.controller.items:index
+  methods: [ POST ]
+
+    list_item_remove:
+      path: /api/item/revove/{name}
+      defaults:
+        _controller: racoon_assess.controller.items:remove
+      methods: [ POST ]
